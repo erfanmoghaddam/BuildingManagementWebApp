@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h2>Erfan's Online Building Management Web App</h2>
+    <p class="lead">Welcome!</p>
+    <p>@Html.ActionLink("Log In as an Employee", "EmployeeLogin", "Accounts")</p>
+    <p>@Html.ActionLink("Sign Up as an Employee", "EmployeeSignup", "Accounts")</p>
+    <p>@Html.ActionLink("Log In as a Tenant", "TenantLogin", "Accounts")</p>
+    <p>@Html.ActionLink("Sign Up as a Tenant", "TenantSignup", "Accounts")</p>
+</div>
+
+<div>
+    @Html.ActionLink("List of Apartments", "Index", "Apartments")<br />
+    @Html.ActionLink("List of Appointments", "Index", "Appointments")<br />
+    @Html.ActionLink("List of Buildings", "Index", "Buildings")<br />
+    @Html.ActionLink("List of Employees", "Index", "Employees")<br />
+    @Html.ActionLink("List of Messages", "Index", "Messages")<br />
+    @Html.ActionLink("List of Tenants", "Index", "Tenants")<br />
+    @Html.ActionLink("Log in", "EmployeeLogin", "Accounts")<br />
+</div>
+
