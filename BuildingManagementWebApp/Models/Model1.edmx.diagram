@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ed7428992ac840e38e381bd538837a35" Name="Diagram1">
+        <EntityTypeShape EntityType="BuildingManagementDBModel.Apartment" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BuildingManagementDBModel.Appointment" Width="1.5" PointX="6" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BuildingManagementDBModel.Building" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BuildingManagementDBModel.Employee" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="BuildingManagementDBModel.Message" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BuildingManagementDBModel.sysdiagram" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BuildingManagementDBModel.Tenant" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="BuildingManagementDBModel.FK_Apartments_Buildings" ManuallyRouted="false" />
+        <AssociationConnector Association="BuildingManagementDBModel.FK_Apartments_Tenants" ManuallyRouted="false" />
+        <AssociationConnector Association="BuildingManagementDBModel.FK_Appointments_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="BuildingManagementDBModel.FK_Appointments_Tenants" ManuallyRouted="false" />
+        <AssociationConnector Association="BuildingManagementDBModel.FK_Buildings_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="BuildingManagementDBModel.FK_Messages_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="BuildingManagementDBModel.FK_Messages_Tenants" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
